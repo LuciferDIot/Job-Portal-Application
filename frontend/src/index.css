@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+    .backdrop-reflect-below {
+        backdrop-filter: blur(1px) contrast(0.08);
+        backdrop-reverse: below;
+        -webkit-box-reflect: below 0.5px linear-gradient(transparent, #0008);
+    }
+}
