@@ -1,6 +1,70 @@
-<h1>Welcome to the Job Portal Application</h1>
-        <p>Explore a world of opportunities and connections.</p>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Portal Application</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #ffffff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        h2 {
+            color: #555;
+        }
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        li {
+            margin-bottom: 10px;
+        }
+        .features {
+            margin-top: 20px;
+        }
+        .features h3 {
+            color: #777;
+        }
+        .features ul {
+            margin-left: 40px;
+        }
+        .requirements {
+            margin-top: 20px;
+        }
+        .requirements h3 {
+            color: #777;
+        }
+        .requirements ul {
+            margin-left: 40px;
+        }
+        .instructions {
+            margin-top: 20px;
+        }
+        .instructions h3 {
+            color: #777;
+        }
+        .instructions p {
+            margin-bottom: 15px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Welcome to the Job Portal Application</h1>
+        <p>Explore a world of opportunities and connections.</p>
         <div class="features">
             <h2>Features:</h2>
             <ul>
@@ -14,7 +78,6 @@
                 <li><strong>Advanced Search Filters:</strong> Embark on refined searches with tailored filters.</li>
             </ul>
         </div>
-
         <div class="requirements">
             <h2>Non-Functional Requirements:</h2>
             <ul>
@@ -27,7 +90,6 @@
                 <li><strong>Compatibility:</strong> Witness magic across browsers and screens.</li>
             </ul>
         </div>
-
         <div class="instructions">
             <h2>Instructions to Run the Application:</h2>
             <p>Embark on your technical voyage by bringing the Job Portal Application to life. Follow these steps and
@@ -55,3 +117,7 @@
                     variable to its rightful essence.</li>
             </ol>
         </div>
+    </div>
+</body>
+
+</html>
